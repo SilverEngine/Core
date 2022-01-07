@@ -1,0 +1,30 @@
+{
+    "name": "silverengine/core",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SilverEngine",
+            "email": "support@silverengine.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "lotfio/aven": "dev-master",
+        "silverengine/cli": "dev-develop",
+        "lotfio/ouch": "dev-master"
+    },
+    "autoload" : {
+        "psr-4" : {
+           
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    }
+}
